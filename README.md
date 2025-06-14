@@ -1,3 +1,14 @@
+// Docker
+// Before starting a backend start a Docker
+
+>>  Open the Docker Application
+>> After Open Docker Come in vs-code Terminal run a command 
+#  docker-compose up
+
+ >> Your Docker run SuccessFully 
+
+
+
 // Backend
 git clone <your-repo-url>
 cd backend
@@ -23,6 +34,32 @@ Adds a user's personal information.
   "phone": "1234567890",
   "gender": "Male"
 }
+
+
+
+// Create a  Crud-Api
+>>  This Website create a Api  copy the link and paste in envfile
+  # https://crudcrud.com/
+
+ 
+
+
+// Frontend
+
+* Create Frontend Application 
+ # npm create vite@latest
+
+ >> Select TypeScript
+
+>> and Install Packages 
+
+* Run command build 
+# npm run dev
+
+
+
+
+
 
 
 
