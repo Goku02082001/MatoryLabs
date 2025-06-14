@@ -124,7 +124,7 @@ function App() {
       fontWeight: '600',
       textDecoration: 'none',
       padding: '12px 24px',
-      border: '2px solid #667eea',
+      border: '2px solid black',
       borderRadius: '8px',
       transition: 'all 0.3s ease',
       fontSize: '14px',
