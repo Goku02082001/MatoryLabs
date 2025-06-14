@@ -64,7 +64,7 @@ const ProfilePage = () => {
         city: form.city,
         pincode: form.pincode,
       };
-      const res = await fetch(`http://localhost:8080/api/users/${user?.sub}`, {
+      const res = await fetch(`http://localhost:5000/api/users/${user?.sub}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

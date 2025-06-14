@@ -22,7 +22,7 @@ app.use('/api/users', userRoutes);
 
 mongoose.connect(process.env.MONGO_URI!).then(() => {
   console.log('MongoDB Connected');
-  app.listen(8080, () => console.log('Backend running on http://localhost:8080'));
+  app.listen(5000, () => console.log('Backend running on http://localhost:5000'));
 });
 
 async function runWorker() {
