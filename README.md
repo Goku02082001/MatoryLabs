@@ -62,15 +62,15 @@ This project uses **Vite + React + TypeScript**.
 
 #### 1. Dashboard Landing Page
 > _Location_: `http://localhost:5173`  
-![Dashboard Landing](./public/Dashboard.png)
+![Dashboard Landing](./frontend/public/Dashboard.png)
 
 
 
 #### 2. Auth0 Login Page
 > _Redirects to Auth0 login_  
-![Auth0 Login](./public/Login.png)
+![Auth0 Login](./frontend/public/Login.png)
 
 
 #### 3. After Successful Login
 > _Dashboard welcomes the logged-in user_  
-![Authenticated Dashboard](./public/Profile.png)
+![Authenticated Dashboard](./frontend/public/Profile.png)
