@@ -182,7 +182,7 @@ function App() {
               )}
 
               <div style={styles.card}>
-                {/* Loading State */}
+               
                 {isLoading && (
                   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '24px' }}>
                     <div style={styles.loadingSpinner}></div>
@@ -190,7 +190,7 @@ function App() {
                   </div>
                 )}
 
-                {/* Login State */}
+                
                 {!isAuthenticated && !isLoading && (
                   <>
                     <h1 style={styles.title}>
