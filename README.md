@@ -74,3 +74,8 @@ This project uses **Vite + React + TypeScript**.
 #### 3. After Successful Login
 > _Dashboard welcomes the logged-in user_  
 ![Authenticated Dashboard](./frontend/public/Profile.png)
+
+
+#### 3. Form Page
+> _Update Profile_  
+![Update Profile](./frontend/public/Form.png)
