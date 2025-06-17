@@ -8,8 +8,3 @@ export async function saveToDB(data: any) {
   { upsert: true, new: true }
 );
 }
-
-export async function saveToCrudCrud(data: any) {
-  const api = process.env.CRUD_CRUD_API!;
-  await axios.post(`${api}/profile`, data);
-}

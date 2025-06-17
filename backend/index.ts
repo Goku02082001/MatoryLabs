@@ -26,11 +26,17 @@ mongoose.connect(process.env.MONGO_URI!).then(() => {
 });
 
 async function runWorker() {
-  const worker = await Worker.create({
-    workflowsPath: require.resolve('./WorkData/userWorkData'),
-    activities: require('./UserData/userData'),
-    taskQueue: 'user-queue',
-  });
-  await worker.run();
+  try {
+    console.log('Starting Temporal worker...');
+    const worker = await Worker.create({
+      workflowsPath: require.resolve('./WorkData/userWorkData'),
+      activities: require('./UserData/userData'),
+      taskQueue: 'user-queue',
+    });
+    console.log('Worker created! Now running...');
+    await worker.run(); 
+  } catch (err) {
+    console.error('Worker startup failed:', err);
+  }
 }
 runWorker();
